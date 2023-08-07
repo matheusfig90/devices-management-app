@@ -18,7 +18,7 @@ import java.util.Optional;
 @Service
 public class DeviceService {
     public record DeviceInfo(Device device, Booking latestBooking,
-                      Boolean isDeviceAvailable) {
+                      Boolean isAvailable) {
     }
 
     @Autowired
