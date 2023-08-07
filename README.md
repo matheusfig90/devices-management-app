@@ -53,3 +53,4 @@ To execute the unit tests, you can run:
 ### Next steps
 - [ ] Add user authentication, to avoid receive `userId` as param
 - [ ] Create a DTO between controller and service, to avoid exposing entities
+- [ ] Set up CI/CD
